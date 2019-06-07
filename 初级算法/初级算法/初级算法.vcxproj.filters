@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1_从排序数组中删除重复项.cpp">
+    <ClCompile Include="2_买股票的最佳时机.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
