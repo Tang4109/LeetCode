@@ -55,17 +55,11 @@ int main()
 	int len = 0;
 	//int a[] = { 6, 1, 3, 2, 4, 7 };
 	//int a[] = { 7,6,4,3,1 };
-	//int a[] = { 1,2,3,4,5 };
-	int a[] = { 5,2,3,2,6,6,2,9,1,0,7,4,5,0 };
-	vector<int> v;
-	GET_ARRAY_LEN(a, len);
-	for (int i = 0; i < len; i++)
-	{
-		v.push_back(a[i]);
-	}
+	//int a[] = { 5,2,3,2,6,6,2,9,1,0,7,4,5,0 };
+	vector<int> a = { 5,2,3,2,6,6,2,9,1,0,7,4,5,0 };
 	int profit = 0;
 	Solution s;
-	profit = s.maxProfit(v);
+	profit = s.maxProfit(a);
 	cout << profit << endl;
 
 	cout << "\nend.." << endl;
