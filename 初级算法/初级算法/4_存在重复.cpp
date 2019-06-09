@@ -41,6 +41,8 @@ public:
 		for (auto x : a) {
 			s.insert(x);
 		}
+		cout << s.size() << endl;
+		cout << a.size() << endl;
 		return s.size() != a.size();
 	}
 };
@@ -48,7 +50,7 @@ public:
 
 int main()
 {
-	vector<int> a = { 1,2,3,4 };
+	vector<int> a = { 1,2,3,2,4 };
 	Solution s;
 	int flag;
 	flag = s.containsDuplicate(a);
