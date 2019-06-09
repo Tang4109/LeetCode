@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2_买股票的最佳时机.cpp">
+    <ClCompile Include="3_旋转数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
