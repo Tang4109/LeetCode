@@ -27,7 +27,7 @@ void print(vector<int> v)
 
 }
 
-
+//先排序，然后再找只出现一次数字就简单很多
 class Solution {
 public:
 	int singleNumber(vector<int>& a) {
