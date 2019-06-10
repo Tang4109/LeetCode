@@ -38,8 +38,11 @@ class Solution {
 public:
 	bool containsDuplicate(vector<int>& a) {
 		set<int> s;
+
 		for (auto x : a) {
+			cout << x << " ";
 			s.insert(x);
+			
 		}
 		cout << s.size() << endl;
 		cout << a.size() << endl;
