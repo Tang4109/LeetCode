@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5_只出现一次数字.cpp">
+    <ClCompile Include="6_两个数组的交集.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
