@@ -31,7 +31,7 @@ void print(vector<vector<int>>& v)
 	}
 
 }
-
+//先转置，再每行旋转
 class Solution {
 public:
 	void rotate(vector<vector<int>>& a) {
