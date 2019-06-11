@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10_有效的数独.cpp">
+    <ClCompile Include="11_旋转图像.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
